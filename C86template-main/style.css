@@ -1,0 +1,26 @@
+.body_background 
+{
+    background-image:url(hOye.gif);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+#myCanvas
+{
+    z-index: 500;
+   border-radius: 5px;
+   background-color: aliceblue;
+   background-size:cover;
+}
+.btn {
+    position: relative;
+    z-index: 500;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    position:fixed;
+    background-color: rgba(0, 0, 0, 0.507);
+    z-index: 100;
+}
